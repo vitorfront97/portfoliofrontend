@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --background:#18181b;
+  --text: #a3a3a3;
+  --primary: #c9fc00;
+  --secondary: #7effe0;  
+}
+
+@theme inline {
+  --color-this-background: var(--background);
+  --color-this-text: var(--text);
+  --color-this-primary: var(--primary);
+  --color-this-secondary: var(--secondary);
+  --font-this-playball: var(--font-playball);
+  --font-this-play: var(--font-play);
+  --font-this-oleoScript: var(--font-oleoScript);
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color:#a3a3a3;
+  background-color: #18181b;
+  font-size: 18px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
