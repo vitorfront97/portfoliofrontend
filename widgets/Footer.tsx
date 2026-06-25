@@ -73,7 +73,7 @@ export default function Footer() {
           </li>
         </ul>
       </nav>
-      <span>© Vitor Bruno - 2026</span>
+      <span className="font-this-play">© Vitor Bruno - 2026</span>
     </footer>
   );
 }

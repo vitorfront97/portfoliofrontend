@@ -3,9 +3,10 @@ import Image from "next/image";
 interface mainProps {
   source: string;
   link: string;
+  children: React.ReactNode
 };
 
-export default function MainItem({source, link}: mainProps) {
+export default function MainItem({source, link, children}: mainProps) {
   return (
     <article className="relative group z-0">
       <Image
@@ -17,7 +18,11 @@ export default function MainItem({source, link}: mainProps) {
       />
       <div
         className="
-          flex items-center justify-center
+          px-8
+          gap-8
+
+
+          flex flex-col items-center justify-center
           w-full
           h-full
           absolute
@@ -33,6 +38,9 @@ export default function MainItem({source, link}: mainProps) {
           group-hover:scale-y-100
           "
       >
+        <p className="text-sm text-white font-this-play">
+          {children}
+        </p>
         <a
           href={link}
           target="_blank"
@@ -44,3 +52,12 @@ export default function MainItem({source, link}: mainProps) {
     </article>
   );
 };
+
+
+/* 
+
+invisible
+scale-y-0
+
+
+*/
