@@ -2,11 +2,11 @@ import MainItem from "@/components/MainItem";
 
 export default function Main() {
   return (
-    <section className="mt-12 flex flex-col items-center gap-8">
-      <h2 className="text-this-primary text-4xl font-this-playball">
+    <section className="mt-12 px-4 flex flex-col items-center gap-8 lg:px-8 xl:px-0">
+      <h2 className="text-this-primary text-3xl font-this-playball md:text-4xl">
         Um pouco do meu trabalho
       </h2>
-      <div className="grid sm:grid-cols-[auto_auto] justify-center gap-4">
+      <div className="grid lg:grid-cols-[auto_auto] justify-center gap-4">
         <MainItem
           source="/works/1-sunny.webp"
           link="https://sunnyside-agency-landing-page-main-theta-black.vercel.app/"

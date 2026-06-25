@@ -12,25 +12,49 @@ export default function Header() {
           alt="Início"
         />
       </a>
-      <a
-        href="#contato"
-        className="text-this-primary text-2xl font-this-playball
-        relative
-        after:w-full
-        after:h-0.5
-        after:bg-this-secondary
-        after:absolute
-        after:-bottom-1
-        after:left-[50%]
-        after:-translate-x-[50%]
-        after:origin-left
-        after:transition-transform
-        after:duration-75
-        after:scale-x-0
-        hover:after:scale-x-100
-      ">
-        contato
-      </a>
+      <div className="flex gap-8">
+        <a
+          href="/curriculo-vitor-bruno.pdf"
+          download
+          className="text-this-primary text-2xl font-this-playball
+          relative
+          after:w-full
+          after:h-0.5
+          after:bg-this-secondary
+          after:absolute
+          after:-bottom-1
+          after:left-[50%]
+          after:-translate-x-[50%]
+          after:origin-left
+          after:transition-transform
+          after:duration-75
+          after:scale-x-0
+          hover:after:scale-x-100
+          "
+        >
+          currículo
+        </a>
+        <a
+          href="#contato"
+          className="text-this-primary text-2xl font-this-playball
+          relative
+          after:w-full
+          after:h-0.5
+          after:bg-this-secondary
+          after:absolute
+          after:-bottom-1
+          after:left-[50%]
+          after:-translate-x-[50%]
+          after:origin-left
+          after:transition-transform
+          after:duration-75
+          after:scale-x-0
+          hover:after:scale-x-100
+      "
+        >
+          contato
+        </a>
+      </div>
     </header>
   );
 };
