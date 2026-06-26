@@ -8,7 +8,7 @@ export default function Hero() {
       </h1>
       <p className="mt-8 font-this-play text-[16px] md:text-[18px] md:mx-32 xl:mx-64">
         Transformo ideias em experiências digitais modernas, rápidas e
-        estratégicas. Sou desenvolvedor Frontend especializado em Next.js e
+        estratégicas. Sou desenvolvedor Front-end especializado em Next.js e
         Tailwind CSS, criando sites com design atual, performance otimizada e
         foco em SEO.
       </p>

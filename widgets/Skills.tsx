@@ -25,7 +25,7 @@ export default function Skills() {
           </article>
           <article className="flex flex-col gap-4">
             <span className="text-this-text text-3xl font-this-play font-bold">
-              Frontend
+              Front-end
             </span>
             <ul>
               <li className="text-this-secondary text-xl">
@@ -41,7 +41,7 @@ export default function Skills() {
           </article>
           <article className="flex flex-col gap-4">
             <span className="text-this-text text-3xl font-this-play font-bold">
-              Backend
+              Back-end
             </span>
             <ul>
               <li className="text-this-secondary text-xl">

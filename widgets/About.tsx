@@ -7,14 +7,14 @@ export default function About() {
         </h2>
         <div className="flex flex-col gap-4">
           <p className="text-this-text text-xl">
-            Sou desenvolvedor frontend com foco em Next Js e Tailwind CSS.
+            Sou desenvolvedor front-end com foco em Next Js e Tailwind CSS.
             Tenho contato com programação desde 2020 quando iniciei meus
             primeiros estudos em lógica de programação com Python, o que me fez
             decidir que era isso o que buscaria para minha carreira dali em
             diante.
           </p>
           <p className="text-this-text text-xl">
-            Além do portfólio frontend, tenho alguns projetos backend, desde
+            Além do portfólio front-end, tenho alguns projetos back-end, desde
             sistemas de login com uso de cookies em sessões, até uma aplicação
             que permite que o usuário salve contatos em um tipo de agenda, com
             banco de dados Mongo DB. Também já criei projetos com banco de dados
