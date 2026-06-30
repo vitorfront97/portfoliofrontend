@@ -7,6 +7,7 @@ export default function Footer() {
         <ul className="flex items-center gap-4">
           <li>
             <a
+              aria-label="WhatsApp"
               href="https://wa.me/5543988729240"
               target="_blank"
               className="
@@ -29,6 +30,7 @@ export default function Footer() {
           </li>
           <li>
             <a
+              aria-label="LinkedIn"
               href="https://www.linkedin.com/in/vitorbrunobueno"
               target="_blank"
               className="
@@ -51,6 +53,7 @@ export default function Footer() {
           </li>
           <li>
             <a
+              aria-label="GitHub"
               href="https://github.com/vitorfront97"
               target="_blank"
               className="
