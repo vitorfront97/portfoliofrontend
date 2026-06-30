@@ -47,7 +47,7 @@ export default function Header() {
 
     return unlockScroll;
   }, [openMenu]);
-  
+
   return (
     <header className="py-4 px-8 w-full flex items-center justify-between fixed top-0 left-0 bg-this-background z-10">
       <a href="/" arias-label="Início">
@@ -62,7 +62,7 @@ export default function Header() {
       <button className="absolute right-8 cursor-pointer z-10 sm:hidden" onClick={() => setOpenMenu((o) => !o)}>
         {openMenu ? (
           <FaTimes
-            className=" text-this-primary text-3xl"
+            className=" text-this-secondary text-3xl"
           />
         ) : (
           <FaBars
@@ -121,7 +121,7 @@ export default function Header() {
       </nav>
       <MenuBg openMenu={openMenu} />
       <nav
-        className={`py-12 px-16 flex justify-center absolute top-24 left-[50%] -translate-x-[50%] border-4 border-this-primary backdrop-blur-2xl transition-transform duration-300 z-10 sm:hidden
+        className={`py-12 px-16 flex justify-center absolute top-24 left-[50%] -translate-x-[50%] border-4 border-this-secondary backdrop-blur-2xl transition-transform duration-300 z-10 sm:hidden
         ${openMenu ? `translate-y-0` : `-translate-y-110`}  
         `}
       >
@@ -130,36 +130,36 @@ export default function Header() {
             <a
               download
               href="/curriculo-vitor-bruno.pdf"
-              className="flex items-center gap-2 text-this-primary text-2xl font-this-oleoScript"
+              className="flex items-center gap-2 text-this-secondary text-2xl font-this-oleoScript"
             >
-              <FaFileAlt aria-hidden="true" className="text-this-primary text-2xl" /> Currículo
+              <FaFileAlt aria-hidden="true" className="text-this-secondary text-2xl" /> Currículo
             </a>
           </li>
           <li>
             <a
               href="https://wa.me/5543988729240"
               target="_blank"
-              className="flex items-center gap-2 text-this-primary text-2xl font-this-oleoScript"
+              className="flex items-center gap-2 text-this-secondary text-2xl font-this-oleoScript"
             >
-              <FaWhatsapp aria-hidden="true" className="text-this-primary text-2xl" /> WhatsApp
+              <FaWhatsapp aria-hidden="true" className="text-this-secondary text-2xl" /> WhatsApp
             </a>
           </li>
           <li>
             <a
               href="https://www.linkedin.com/in/vitorbrunobueno"
               target="_blank"
-              className="flex items-center gap-2 text-this-primary text-2xl font-this-oleoScript"
+              className="flex items-center gap-2 text-this-secondary text-2xl font-this-oleoScript"
             >
-              <FaLinkedinIn aria-hidden="true" className="text-this-primary text-2xl" /> LinkedIn
+              <FaLinkedinIn aria-hidden="true" className="text-this-secondary text-2xl" /> LinkedIn
             </a>
           </li>
           <li>
             <a
               href="https://github.com/vitorfront97"
               target="_blank"
-              className="flex items-center gap-2 text-this-primary text-2xl font-this-oleoScript"
+              className="flex items-center gap-2 text-this-secondary text-2xl font-this-oleoScript"
             >
-              <FaGithub aria-hidden="true" className="text-this-primary text-2xl" /> GitHub
+              <FaGithub aria-hidden="true" className="text-this-secondary text-2xl" /> GitHub
             </a>
           </li>
         </ul>
