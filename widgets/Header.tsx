@@ -47,6 +47,7 @@ export default function Header() {
 
     return unlockScroll;
   }, [openMenu]);
+  
   return (
     <header className="py-4 px-8 w-full flex items-center justify-between fixed top-0 left-0 bg-this-background z-10">
       <a href="/" arias-label="Início">
@@ -65,7 +66,7 @@ export default function Header() {
           />
         ) : (
           <FaBars
-            className="text-this-primary text-3xl"
+            className="text-this-secondary text-3xl"
           />
         )}
       </button>
